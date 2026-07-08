@@ -315,6 +315,13 @@ Commercial use, resale, client implementation, or consulting delivery based on t
 
 See `NOTICE.md` for details.
 
+## Documentation
+
+- [Business Case](docs/business_case.md)
+- [Data Dictionary](docs/data_dictionary.md)
+- [Implementation Guide](docs/implementation_guide.md)
+- [Project Case Study](docs/project_case_study.md)
+
 ## Status
 
 In development.
