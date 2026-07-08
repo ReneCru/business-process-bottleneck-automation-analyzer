@@ -85,6 +85,117 @@ This project helps answer key operational questions:
 
 ![Top Bottlenecks](assets/screenshots/top_bottlenecks.png)
 
+## Business Impact
+
+This project demonstrates how operational process data can be converted into actionable automation decisions.
+
+The analyzer helps estimate:
+
+- Current monthly labor cost before automation
+- Future monthly labor cost after automation
+- Monthly and annual labor savings
+- Annual labor hours saved
+- Waiting-time reduction
+- Automation setup cost
+- ROI percentage
+- Payback period
+- Recommended automation priority
+
+The tool is designed to support better decision-making before investing in automation. Instead of automating based on assumptions, the business can prioritize opportunities based on cost, bottleneck severity, ROI, and payback speed.
+
+## Skills Demonstrated
+
+This project demonstrates skills in:
+
+- Business process analysis
+- Bottleneck identification
+- ROI analysis
+- Automation opportunity assessment
+- Data validation
+- Python programming
+- Pandas data processing
+- Streamlit dashboard development
+- Plotly data visualization
+- Modular project structure
+- Executive reporting
+- GitHub project documentation
+- Business case development
+
+## Project Workflow
+
+The project follows a structured business analysis pipeline:
+
+```text
+1. Generate synthetic business process data
+2. Validate and clean input data
+3. Analyze current-state bottlenecks
+4. Calculate before vs. after automation metrics
+5. Estimate savings, ROI, and payback period
+6. Generate automation recommendations
+7. Display results in a Streamlit dashboard
+
+The full pipeline can be executed with:
+
+```bash
+python src/run_pipeline.py
+```
+
+```md
+## Key Business Formulas
+
+### Manual Labor Hours Before Automation
+
+```text
+manual_hours_before = monthly_volume × manual_time_minutes_per_case / 60
+
+rework_hours_before = monthly_volume × error_rate × rework_time_minutes_per_error / 60
+
+labor_cost_before = (manual_hours_before + rework_hours_before) × cost_per_hour
+
+monthly_savings = labor_cost_before - labor_cost_after
+
+annual_savings = monthly_savings × 12
+
+roi_pct = ((annual_savings - automation_setup_cost) / automation_setup_cost) × 100
+
+payback_months = automation_setup_cost / monthly_savings
+
+```md
+## Limitations
+
+This project uses synthetic data and estimated automation assumptions for demonstration purposes.
+
+The results should not be interpreted as guaranteed savings.
+
+A real business implementation would require:
+
+- Validated process data
+- Historical transaction volumes
+- Accurate labor cost assumptions
+- Process owner interviews
+- Time studies
+- Automation feasibility review
+- Technical integration assessment
+- Pilot testing
+- Post-implementation measurement
+
+The public version is intended for portfolio demonstration and educational review only.
+
+## Future Enhancements
+
+Potential future improvements include:
+
+- Excel upload support
+- Configurable ROI assumptions
+- Scenario comparison
+- PDF executive report generation
+- Power BI export layer
+- SQL database integration
+- User-defined automation scoring weights
+- Process owner input form
+- Historical trend analysis
+- Real implementation tracking after automation
+
 ## How to Run the Project
 
 -Install dependencies:
