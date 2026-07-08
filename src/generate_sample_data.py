@@ -1,12 +1,12 @@
 import os
 import random
-from datetime import datetime
 
 import pandas as pd
 
 
 RANDOM_SEED = 42
 OUTPUT_PATH = "data/raw/business_process_data.csv"
+SAMPLE_DATA_VERSION_DATE = "2026-01-01 00:00:00"
 
 
 def get_reduction_ranges(automation_feasibility: str) -> dict:
@@ -231,7 +231,7 @@ def generate_business_process_data() -> pd.DataFrame:
                     "automation_error_reduction_pct": automation_error_reduction_pct,
                     "automation_waiting_time_reduction_pct": automation_waiting_time_reduction_pct,
                     "automation_setup_cost_usd": automation_setup_cost,
-                    "data_generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "data_generated_at": SAMPLE_DATA_VERSION_DATE,
                 }
             )
 
