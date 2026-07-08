@@ -30,6 +30,23 @@ This project helps answer key operational questions:
 - Generate executive-ready outputs
 - Streamlit dashboard for interactive analysis
 
+## How to Run the Project
+
+-Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
+-Run the full analysis pipeline:
+
+python src/run_pipeline.py
+
+-Launch the dashboard:
+
+streamlit run src/app.py
+
+
+
 ## Use Cases
 
 This project can be adapted for:
