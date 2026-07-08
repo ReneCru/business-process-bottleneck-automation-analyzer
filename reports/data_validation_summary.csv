@@ -1,0 +1,8 @@
+validation_area,status,message
+required_columns,Passed,No issues found.
+missing_values,Passed,No issues found.
+positive_values,Passed,No issues found.
+percentage_values,Passed,No issues found.
+allowed_categories,Passed,No issues found.
+duplicate_ids,Passed,No issues found.
+numeric_conversion,Passed,No issues found.
