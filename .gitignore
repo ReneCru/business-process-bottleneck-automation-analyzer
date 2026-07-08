@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Private business/client data
+data/client/
+data/private/
+client_data/
+private_data/
+
+# Environment and secrets
+.env
+*.env
+.streamlit/secrets.toml
+
+# Real company exports
+*.xls
+*.xlsx
+*.xlsm
+
+# Local temporary files
+*.tmp
+*.bak

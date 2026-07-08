@@ -1,0 +1,4 @@
+process_id,process_name,process_category,department,step_id,step_order,step_name,owner_role,system_used,monthly_volume,manual_time_minutes_per_case,waiting_time_hours_per_case,error_rate,rework_time_minutes_per_error,cost_per_hour_usd,automation_feasibility,automation_complexity,automation_time_reduction_pct,automation_error_reduction_pct,automation_waiting_time_reduction_pct,automation_setup_cost_usd
+P001,Invoice Approval,Finance,Accounts Payable,P001-S01,1,Invoice Received,AP Clerk,Email / ERP,500,8,12,0.05,20,25,High,Low,0.60,0.50,0.35,5000
+P001,Invoice Approval,Finance,Accounts Payable,P001-S02,2,Data Validation,AP Analyst,Excel / ERP,500,15,24,0.08,30,25,High,Medium,0.55,0.45,0.30,9000
+P001,Invoice Approval,Finance,Accounts Payable,P001-S03,3,Manager Approval,Finance Manager,Email / ERP,500,10,48,0.03,20,35,Medium,Medium,0.35,0.25,0.25,9000
