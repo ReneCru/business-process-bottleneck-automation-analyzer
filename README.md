@@ -63,6 +63,28 @@ This project helps answer key operational questions:
 - Generate executive-ready outputs
 - Streamlit dashboard for interactive analysis
 
+## Dashboard Preview
+
+### Executive Summary
+
+![Dashboard Overview](assets/screenshots/dashboard_overview.png)
+
+### ROI by Process
+
+![ROI by Process](assets/screenshots/roi_by_process.png)
+
+### Monthly Cost Before vs. After Automation
+
+![Before After Cost](assets/screenshots/before_after_cost.png)
+
+### Executive Action Plan
+
+![Executive Action Plan](assets/screenshots/executive_action_plan.png)
+
+### Top Bottlenecks
+
+![Top Bottlenecks](assets/screenshots/top_bottlenecks.png)
+
 ## How to Run the Project
 
 -Install dependencies:
