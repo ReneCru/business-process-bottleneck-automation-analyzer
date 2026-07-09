@@ -307,13 +307,14 @@ business-process-bottleneck-automation-analyzer/
 ├── notebooks/
 └── docs/
 
-## Usage Notice
+## Usage Restriction
 
-This repository is a public portfolio demo.
+This repository is a public portfolio demonstration.
 
-Commercial use, resale, client implementation, or consulting delivery based on this repository is not permitted without explicit written authorization.
+Commercial use, resale, consulting implementation, client delivery, SaaS deployment, redistribution, or use in paid training materials is not permitted without explicit written authorization from the repository owner.
 
-See `NOTICE.md` for details.
+See the LICENSE and NOTICE.md files for details.
+
 
 ## Documentation
 
